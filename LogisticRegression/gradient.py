@@ -1,5 +1,5 @@
 import numpy
-import sigmoid
+from sigmoid import sigmoid
 
 def log_likelihood_gradient(features, target, weights):
 	scores = numpy.dot(features, weights)
